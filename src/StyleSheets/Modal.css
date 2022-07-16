@@ -1,0 +1,189 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  position: relative;
+}
+.container .btn-segment {
+  padding: 10px;
+  background: transparent;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 4rem;
+  cursor: pointer;
+}
+.display-modal {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 30%;
+  transition: 0.8s all;
+}
+.opac-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.6;
+  background-color: black;
+}
+.nav-content {
+  background-color: #32889fc9;
+  padding: 32px 22px;
+}
+.label-segment {
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+}
+.fas {
+  color: white;
+  font-size: 21px;
+  margin-right: 1.5rem;
+}
+.hide-modal {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 0%;
+  transition: 0.8s all;
+
+  /* display: none; */
+}
+.modal-false {
+  display: none;
+}
+.modal-body {
+  padding-bottom: 22.5rem !important;
+  padding: 30px 22px;
+  background: white;
+}
+.segment-input {
+  display: flex;
+  flex-direction: column;
+}
+.segment-input label {
+  font-size: 20px;
+}
+.segment-input input {
+  margin-top: 1.5rem;
+  height: 27px;
+  width: 89%;
+  border: 1px solid #00000066;
+  font-size: 15px;
+  padding: 6px 25px;
+}
+
+.segment-info {
+  font-size: 20px;
+  line-height: 2rem;
+  margin-top: 1rem;
+}
+.traits-content {
+  display: flex;
+  flex-flow: row-reverse;
+  margin-top: 1.2rem;
+  margin-bottom: 2rem;
+}
+.radius-circle {
+  background: red;
+  border: 50%;
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+  margin-right: 0.3rem;
+}
+.flex-wrap {
+  display: flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+.flex-wrap:nth-child(2) .radius-circle {
+  background-color: green;
+}
+.schema-dropdown {
+  width: 81%;
+  padding: 10px;
+}
+.add-segment-flex,
+.added-segment-flex {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+.add-segment-flex .segment-radius,
+.added-segment-flex .segment-radius {
+  background: black;
+  border: 50%;
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  margin-right: 0.3rem;
+}
+.hyphen-content {
+  background: #d6eded;
+  padding: 10px 10px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  height: 24px;
+}
+.hyphen-content div {
+  width: 30px;
+  height: 6px;
+  background: #585656e0;
+  border-radius: 5px;
+}
+.schema-link {
+  display: flex;
+  margin: 2rem;
+  color: green;
+  font-weight: 600;
+  margin: 1.5rem;
+  color: green;
+  font-weight: 600;
+  /* width: 20%; */
+  padding: 2px;
+}
+.text-link {
+  border-bottom: 2px solid green;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+.schema-link label {
+  font-weight: 600;
+  cursor: pointer;
+}
+.footer-content {
+  background: #f5f5f5;
+  padding: 32px 22px;
+}
+.save-btn {
+  padding: 12px 20px;
+  font-size: 15px;
+  background: green;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  margin-right: 1rem;
+}
+.cancel-btn {
+  background-color: white;
+  color: red;
+  border: none;
+  border-radius: 6px;
+  padding: 14px 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.added-schema {
+  color: green;
+  font-size: 16px;
+  font-weight: 600;
+}
