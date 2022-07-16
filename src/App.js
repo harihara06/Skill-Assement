@@ -206,7 +206,10 @@ export default class App extends Component {
             <div className={modalOpen ? "modal-datae" : "modal-false"}>
               <header className="nav-content">
                 <div className="flex-nav">
-                  <i className="fas fa-less-than"></i>
+                  <i
+                    className="fas fa-less-than"
+                    onClick={() => this.toggleModal()}
+                  ></i>
                   <label className="label-segment">Save Segment</label>
                 </div>
               </header>
@@ -317,7 +320,9 @@ export default class App extends Component {
               >
                 Save the Segment
               </button>
-              <button className="cancel-btn">Cancel</button>
+              <button className="cancel-btn" onClick={() => this.toggleModal()}>
+                Cancel
+              </button>
             </div>
           </div>
         </div>
